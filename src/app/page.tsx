@@ -13,8 +13,19 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-400 to-emerald-200 inline-block text-transparent bg-clip-text">
-              Why Anno?
+              Why Anno? (Change This Title)
             </h1>
+            <p className="text-gray-400 mb-4">
+              A demo of the{" "}
+              <a 
+                href="https://github.com/garysheng/audio-story-page-template" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-emerald-400 hover:text-emerald-300 underline"
+              >
+                audio story page template
+              </a>
+            </p>
             <div className="h-1 w-24 bg-gradient-to-r from-emerald-400 to-emerald-200 mx-auto rounded-full opacity-50" />
           </div>
           
